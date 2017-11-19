@@ -10,6 +10,7 @@
       <sprite>sprites\spr_tent</sprite>
       <sprite>sprites\spr_tent_player</sprite>
       <sprite>sprites\spr_door</sprite>
+      <sprite>sprites\spr_Door_debug</sprite>
     </sprites>
     <sprites name="enemy">
       <sprites name="guard">
@@ -45,16 +46,21 @@
         <sprite>sprites\spr_Luci_attack</sprite>
         <sprite>sprites\spr_Luci_run</sprite>
       </sprites>
+      <sprites name="debug_player">
+        <sprite>sprites\spr_player_debug</sprite>
+      </sprites>
     </sprites>
     <sprites name="walls">
       <sprite>sprites\spr_wall_3</sprite>
       <sprite>sprites\spr_wall_2</sprite>
       <sprite>sprites\spr_wall</sprite>
       <sprite>sprites\spr_wall_inside</sprite>
+      <sprite>sprites\spr_debugwall</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
+    <background>background\debug_BG</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -100,11 +106,13 @@
       <object>objects\obj_wall_2</object>
       <object>objects\obj_wall_3</object>
       <object>objects\obj_wall_inside</object>
+      <object>objects\obj_debugwall</object>
     </objects>
     <objects name="doors">
       <object>objects\obj_tent_player</object>
       <object>objects\obj_tent</object>
       <object>objects\obj_door</object>
+      <object>objects\obj_door_debug</object>
     </objects>
     <objects name="buttons">
       <object>objects\obj_button_parrent</object>
@@ -123,6 +131,7 @@
     <room>rooms\rm_menu</room>
     <room>rooms\rm_forest1</room>
     <room>rooms\rm_tent_inside</room>
+    <room>rooms\rm_debug</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
