@@ -1,3 +1,39 @@
+// collision met een debugmuur
+if (place_meeting(x+movespeed_AD,y,obj_debugwall))
+    {
+        while((!place_meeting(x+sign(movespeed_AD),y,obj_debugwall)))
+            {
+                x+=sign(movespeed_AD) 
+            }
+        movespeed_AD = 0;
+        
+    }
+if (place_meeting(x,y+movespeed_WS,obj_debugwall))
+    {
+        while((!place_meeting(x,y+sign(movespeed_WS),obj_debugwall)))
+            {
+                y+=sign(movespeed_WS)
+            }
+        movespeed_WS = 0;
+    }
+// collision met een debugdeur
+if (place_meeting(x+movespeed_AD,y,obj_door_debug))
+    {
+        while((!place_meeting(x+sign(movespeed_AD),y,obj_door_debug)))
+            {
+                x+=sign(movespeed_AD) 
+            }
+        movespeed_AD = 0;
+        
+    }
+if (place_meeting(x,y+movespeed_WS,obj_door_debug))
+    {
+        while((!place_meeting(x,y+sign(movespeed_WS),obj_door_debug)))
+            {
+                y+=sign(movespeed_WS)
+            }
+        movespeed_WS = 0;
+    }
 // collision met een muur
 if (place_meeting(x+movespeed_AD,y,obj_wall))
     {

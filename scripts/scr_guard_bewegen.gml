@@ -5,7 +5,7 @@ movespeed_AD = move_AD * movespeed;
 movespeed_WS = move_WS * movespeed;
 moveX = movespeed* dir;
 moveY = movespeed* dir;
-
+if(can_move = true) {
 //in beweging zetten van guard
 if (distance <= sight_range && distance > catch_range 
 && !collision_line(x,y,obj_player.x,obj_player.y,obj_wall,false,true)
@@ -22,7 +22,7 @@ if (distance <= sight_range && distance > catch_range
         y += lengthdir_y(spd, dir)
 
     }
-
+}
 // speler vangen    
 else if (distance <= catch_range)
     {
@@ -70,5 +70,6 @@ if(obj_player.sprite_index == spr_Luci_attack
 
 //Collision
 scr_collision();
+
 
 
