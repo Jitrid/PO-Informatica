@@ -90,7 +90,6 @@
         <script>scripts\scr_Luci_beweging.gml</script>
         <script>scripts\scr_Luci_stilstand.gml</script>
       </scripts>
-      <script>scripts\OpenSesame.gml</script>
     </scripts>
     <scripts name="game menu">
       <script>scripts\scr_start_game.gml</script>
@@ -98,6 +97,9 @@
     </scripts>
     <script>scripts\scr_collision.gml</script>
     <script>scripts\scr_find_depth.gml</script>
+    <scripts name="doors">
+      <script>scripts\OpenSesame.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <object>objects\obj_enemy</object>
