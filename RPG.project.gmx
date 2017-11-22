@@ -7,11 +7,16 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprites name="doors">
-      <sprite>sprites\spr_tent</sprite>
-      <sprite>sprites\spr_tent_player</sprite>
-      <sprite>sprites\spr_door</sprite>
-      <sprite>sprites\spr_Door_debug</sprite>
-      <sprite>sprites\DoorOpen</sprite>
+      <sprites name="debug">
+        <sprite>sprites\spr_Door_debug</sprite>
+        <sprite>sprites\spr_door</sprite>
+        <sprite>sprites\DoorOpen</sprite>
+        <sprite>sprites\spr_tent_player</sprite>
+        <sprite>sprites\spr_tent</sprite>
+      </sprites>
+      <sprites name="final">
+        <sprite>sprites\engeldeur</sprite>
+      </sprites>
     </sprites>
     <sprites name="enemy">
       <sprites name="guard">
