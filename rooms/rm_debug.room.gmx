@@ -134,10 +134,10 @@
     <instance objName="obj_debugwall" x="832" y="192" name="inst_EC2277CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_debugwall" x="896" y="192" name="inst_0474F155" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player" x="480" y="480" name="inst_BB7499B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_enemy" x="768" y="320" name="inst_F2E8EE49" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door_debug" x="256" y="128" name="inst_C359409A" locked="0" code="image_index = 1;&#xA;image_speed = 0;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door_debug" x="448" y="128" name="inst_AF0C2C57" locked="0" code="image_index = 3;&#xA;image_speed = 0;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door_debug" x="640" y="128" name="inst_7A1E2C41" locked="0" code="image_index = 0;&#xA;image_speed = 0;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="JeOmaDeur" x="448" y="128" name="inst_BB19F8FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DIETER_DAS_KUT_BOI" x="640" y="128" name="inst_7EAE9894" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door_debug" x="256" y="128" name="inst_2BDF5400" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Karel" x="448" y="256" name="inst_F8DE5FAE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

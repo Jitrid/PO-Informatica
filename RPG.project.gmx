@@ -16,6 +16,9 @@
       </sprites>
       <sprites name="final">
         <sprite>sprites\engeldeur</sprite>
+        <sprite>sprites\Devil_s_asshole</sprite>
+        <sprite>sprites\TWOPLUSTWOISFOURMINUSONEISTHREEQUICKMATHS</sprite>
+        <sprite>sprites\BAKSTEEN</sprite>
       </sprites>
     </sprites>
     <sprites name="enemy">
@@ -122,7 +125,12 @@
       <object>objects\obj_tent</object>
       <object>objects\obj_door</object>
       <object>objects\obj_door_debug</object>
+      <object>objects\JeOmaDeur</object>
+      <object>objects\DIETER_DAS_KUT_BOI</object>
       <object>objects\Debug_Door_Open_</object>
+      <object>objects\NOIR_BEST_NEP</object>
+      <object>objects\Chocola_sux</object>
+      <object>objects\Karel</object>
     </objects>
     <objects name="buttons">
       <object>objects\obj_button_parrent</object>
