@@ -7,18 +7,13 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprites name="doors">
-      <sprites name="debug">
-        <sprite>sprites\spr_Door_debug</sprite>
-        <sprite>sprites\spr_door</sprite>
-        <sprite>sprites\DoorOpen</sprite>
-        <sprite>sprites\spr_tent_player</sprite>
-        <sprite>sprites\spr_tent</sprite>
-      </sprites>
       <sprites name="final">
-        <sprite>sprites\engeldeur</sprite>
-        <sprite>sprites\spr_kwamkwammer</sprite>
-        <sprite>sprites\spr_komkommer</sprite>
-        <sprite>sprites\spr_kwamkwammersloeg</sprite>
+        <sprite>sprites\spr_engeldeur</sprite>
+        <sprite>sprites\spr_duiveldeur</sprite>
+        <sprite>sprites\spr_mensdeur</sprite>
+        <sprite>sprites\spr_engeldeur_open</sprite>
+        <sprite>sprites\spr_duiveldeur_open</sprite>
+        <sprite>sprites\spr_mensdeur_open</sprite>
       </sprites>
     </sprites>
     <sprites name="enemy">
@@ -42,6 +37,7 @@
       <sprite>sprites\spr_border</sprite>
       <sprite>sprites\spr_potion_HP</sprite>
       <sprite>sprites\spr_potion_C</sprite>
+      <sprite>sprites\spr_baksteen</sprite>
     </sprites>
     <sprites name="player">
       <sprites name="Dania">
@@ -50,13 +46,8 @@
         <sprite>sprites\spr_Dania_attack</sprite>
         <sprite>sprites\spr_Dania_run</sprite>
       </sprites>
-      <sprites name="Luci">
-        <sprite>sprites\spr_Luci_stand</sprite>
-        <sprite>sprites\spr_Luci_attack</sprite>
-        <sprite>sprites\spr_Luci_run</sprite>
-      </sprites>
-      <sprites name="debug_player">
-        <sprite>sprites\spr_player_debug</sprite>
+      <sprites name="naamloze">
+        <sprite>sprites\spr__player</sprite>
       </sprites>
     </sprites>
     <sprites name="walls">
@@ -110,6 +101,7 @@
     </scripts>
   </scripts>
   <objects name="objects">
+    <object>objects\Flapdrol_Karel_Obj</object>
     <object>objects\obj_enemy</object>
     <object>objects\obj_player</object>
     <object>objects\obj_XP</object>
@@ -121,16 +113,16 @@
       <object>objects\obj_debugwall</object>
     </objects>
     <objects name="doors">
-      <object>objects\obj_tent_player</object>
-      <object>objects\obj_tent</object>
-      <object>objects\obj_door</object>
-      <object>objects\obj_door_debug</object>
-      <object>objects\obj_Human_door</object>
-      <object>objects\obj_Devil_door_closed</object>
-      <object>objects\obj_Debug_Door_Open</object>
-      <object>objects\obj_Human_door_open</object>
-      <object>objects\obj_Angel_door_open</object>
-      <object>objects\Flapdrol_Karel_Obj</object>
+      <objects name="open">
+        <object>objects\obj_duiveldeur</object>
+        <object>objects\obj_mensdeur</object>
+        <object>objects\obj_engeldeur</object>
+      </objects>
+      <objects name="dicht">
+        <object>objects\obj_duiveldeur_open</object>
+        <object>objects\obj_mensdeur_open</object>
+        <object>objects\obj_engeldeur_open</object>
+      </objects>
     </objects>
     <objects name="buttons">
       <object>objects\obj_button_parrent</object>
