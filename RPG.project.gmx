@@ -7,11 +7,19 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprites name="doors">
-      <sprite>sprites\spr_tent</sprite>
-      <sprite>sprites\spr_tent_player</sprite>
-      <sprite>sprites\spr_door</sprite>
-      <sprite>sprites\spr_Door_debug</sprite>
-      <sprite>sprites\DoorOpen</sprite>
+      <sprites name="debug">
+        <sprite>sprites\spr_Door_debug</sprite>
+        <sprite>sprites\spr_door</sprite>
+        <sprite>sprites\DoorOpen</sprite>
+        <sprite>sprites\spr_tent_player</sprite>
+        <sprite>sprites\spr_tent</sprite>
+      </sprites>
+      <sprites name="final">
+        <sprite>sprites\engeldeur</sprite>
+        <sprite>sprites\spr_kwamkwammer</sprite>
+        <sprite>sprites\spr_komkommer</sprite>
+        <sprite>sprites\spr_kwamkwammersloeg</sprite>
+      </sprites>
     </sprites>
     <sprites name="enemy">
       <sprites name="guard">
@@ -69,9 +77,9 @@
       <scripts name="guard pfc">
         <script>scripts\scr_guard_vangen.gml</script>
         <script>scripts\scr_guard_slaap.gml</script>
+        <script>scripts\scr_guard_bewegen.gml</script>
+        <script>scripts\scr_guard_stilstand.gml</script>
       </scripts>
-      <script>scripts\scr_guard_bewegen.gml</script>
-      <script>scripts\scr_guard_stilstand.gml</script>
     </scripts>
     <scripts name="invertory">
       <script>scripts\scr_itempickup.gml</script>
@@ -90,7 +98,6 @@
         <script>scripts\scr_Luci_beweging.gml</script>
         <script>scripts\scr_Luci_stilstand.gml</script>
       </scripts>
-      <script>scripts\OpenSesame.gml</script>
     </scripts>
     <scripts name="game menu">
       <script>scripts\scr_start_game.gml</script>
@@ -98,6 +105,9 @@
     </scripts>
     <script>scripts\scr_collision.gml</script>
     <script>scripts\scr_find_depth.gml</script>
+    <scripts name="doors">
+      <script>scripts\OpenSesame.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <object>objects\obj_enemy</object>
@@ -115,7 +125,12 @@
       <object>objects\obj_tent</object>
       <object>objects\obj_door</object>
       <object>objects\obj_door_debug</object>
-      <object>objects\Debug_Door_Open_</object>
+      <object>objects\obj_Human_door</object>
+      <object>objects\obj_Devil_door_closed</object>
+      <object>objects\obj_Debug_Door_Open</object>
+      <object>objects\obj_Human_door_open</object>
+      <object>objects\obj_Angel_door_open</object>
+      <object>objects\Flapdrol_Karel_Obj</object>
     </objects>
     <objects name="buttons">
       <object>objects\obj_button_parrent</object>

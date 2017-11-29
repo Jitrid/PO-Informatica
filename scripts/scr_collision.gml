@@ -175,12 +175,55 @@ if (place_meeting(x+movespeed_AD,y,obj_tent_player))
         movespeed_AD = 0;
         
     }
-if (place_meeting(x,y+movespeed_WS,obj_tent_player))
+if (place_meeting(x,y+movespeed_WS,JeOmaDeur))
     {
-        while((!place_meeting(x,y+sign(movespeed_WS),obj_tent_player
+        while((!place_meeting(x,y+sign(movespeed_WS),JeOmaDeur
         )))
             {
                 y+=sign(movespeed_WS)
             }
         movespeed_WS = 0;
     }
+    
+    
+    if (place_meeting(x,y+movespeed_WS,DIETER_DAS_KUT_BOI))
+    {
+        while((!place_meeting(x,y+sign(movespeed_WS),DIETER_DAS_KUT_BOI
+        )))
+            {
+                y+=sign(movespeed_WS)
+            }
+        movespeed_WS = 0;
+    }if (place_meeting(x,y+movespeed_WS,Debug_Door_Open_))
+    {
+        while((!place_meeting(x,y+sign(movespeed_WS),Debug_Door_Open_
+        )))
+            {
+                y+=sign(movespeed_WS)
+            }
+        movespeed_WS = 0;
+    }if (place_meeting(x,y+movespeed_WS,NOIR_BEST_NEP))
+    {
+        while((!place_meeting(x,y+sign(movespeed_WS),NOIR_BEST_NEP
+        )))
+            {
+                y+=sign(movespeed_WS)
+            }
+        movespeed_WS = 0;
+    }if (place_meeting(x,y+movespeed_WS,Chocola_sux))
+    {
+        while((!place_meeting(x,y+sign(movespeed_WS),Chocola_sux
+        )))
+            {
+                y+=sign(movespeed_WS)
+            }
+        movespeed_WS = 0;
+    }if (place_meeting(x,y+movespeed_WS,Karel))
+    {
+        while((!place_meeting(x,y+sign(movespeed_WS),Karel
+        )))
+            {
+                y+=sign(movespeed_WS)
+            }
+        movespeed_WS = 0;
+   }
