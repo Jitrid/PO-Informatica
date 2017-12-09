@@ -1,4 +1,4 @@
-scr_input();
+/*scr_input();
     
 //speler valt aan
 if(attack_sword)
@@ -10,4 +10,4 @@ else
     {
      state = states.normaal_Dania;
     }
-
+    */

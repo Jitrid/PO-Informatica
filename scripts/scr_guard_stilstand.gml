@@ -9,7 +9,7 @@ if (distance <= sight_range
     {
         state = g_states.bewegen;
     }
-//speler valt aan
+/*speler valt aan
 if(obj_player.sprite_index == spr_Dania_attack 
 && floor(obj_player.image_index) == 1 && distance_to_object(obj_player) <= 1)
     {

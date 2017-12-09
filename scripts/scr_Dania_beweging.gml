@@ -18,26 +18,31 @@ y += movespeed_WS
 
 //animatie
 //west
-if(move_AD = 1)
+if(move_AD = -1)
     {
-        sprite_index = spr_Dania_run;
+        sprite_index = spr_player_side;
         image_speed = .2;
         image_xscale = 1;
     }
 //oost
-if(move_AD = -1)
+if(move_AD = 1)
     {
-        sprite_index = spr_Dania_run;
+        sprite_index = spr_player_side;
         image_speed = .2;
         image_xscale = -1;
     }
-// noord en zuid
-if (move_WS = 1 || move_WS = -1)
+// zuid
+if (move_WS = 1)
     {
-        sprite_index = spr_Dania_run;
+        sprite_index = spr_player_down;
         image_speed = .2;
     }
-
+// noord
+if (move_WS = -1)
+    {
+        sprite_index = spr_player_up;
+        image_speed = .2;
+    }
 //speler valt aan
 if(attack_sword)
     {
