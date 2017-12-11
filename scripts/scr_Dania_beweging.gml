@@ -20,29 +20,33 @@ y += movespeed_WS
 //west
 if(move_AD = -1)
     {
-        sprite_index = spr_player_side;
-        image_speed = .2;
-        image_xscale = 1;
+        sprite_index = spr_player_left_walk;
+        image_speed = .35;
     }
 //oost
-if(move_AD = 1)
+else if(move_AD = 1)
     {
-        sprite_index = spr_player_side;
-        image_speed = .2;
-        image_xscale = -1;
+        sprite_index = spr_player_right_walk;
+        image_speed = .35;
     }
 // zuid
-if (move_WS = 1)
+else if (move_WS = 1)
     {
-        sprite_index = spr_player_down;
+        sprite_index = spr_player_down_walk;
         image_speed = .2;
     }
 // noord
-if (move_WS = -1)
+else if (move_WS = -1)
     {
-        sprite_index = spr_player_up;
+        sprite_index = spr_player_up_walk;
         image_speed = .2;
     }
+else
+    {
+        image_speed = 0;
+        image_index = 0;
+    }
+
 //speler valt aan
 if(attack_sword)
     {
