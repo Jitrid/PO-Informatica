@@ -166,7 +166,7 @@ switch(state)
             <kind>1</kind>
             <string>///animatie
 
-if (instance_exists(obj_player)&amp;&amp; state = g_states.bewegen){
+if (instance_exists(obj_player)&amp;&amp; state = g_states.bewegen &amp;&amp; can_move != false ){
     if(x &lt;= obj_player.x )
         {
             sprite_index = spr_enemy_run;
