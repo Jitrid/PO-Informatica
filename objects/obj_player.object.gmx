@@ -213,6 +213,7 @@ enum states
           </argument>
         </arguments>
       </action>
+<<<<<<< HEAD
       <action>
         <libid>1</libid>
         <id>601</id>
@@ -253,6 +254,8 @@ enum states
           </argument>
         </arguments>
       </action>
+=======
+>>>>>>> master
     </event>
     <event eventtype="8" enumb="64">
       <action>

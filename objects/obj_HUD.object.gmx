@@ -8,7 +8,11 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+<<<<<<< HEAD:objects/obj_HUD.object.gmx
     <event eventtype="8" enumb="64">
+=======
+    <event eventtype="3" enumb="0">
+>>>>>>> master:objects/Debug_Door_Open_.object.gmx
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,7 +29,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
+<<<<<<< HEAD:objects/obj_HUD.object.gmx
             <string>draw_self();
+=======
+            <string>if(keyboard_check_pressed(ord("I"))&amp;&amp; distance_to_object(obj_player) &lt; 10 )
+{
+instance_change(obj_door_debug, true);
+}
+>>>>>>> master:objects/Debug_Door_Open_.object.gmx
 </string>
           </argument>
         </arguments>
