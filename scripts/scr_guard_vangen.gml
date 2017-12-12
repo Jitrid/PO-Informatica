@@ -16,7 +16,7 @@ else
         }
     }
 
-/*speler valt aan
+//speler valt aan
 if(obj_player.sprite_index == spr_Dania_attack 
 && floor(obj_player.image_index) == 1 && distance_to_object(obj_player) <= 1)
     {
@@ -49,6 +49,5 @@ if(obj_player.sprite_index == spr_Luci_attack
                 sprite_index = spr_enemy_hit;
             }
     } 
-    */
 //collision
 scr_collision();

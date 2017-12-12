@@ -1,6 +1,9 @@
 scr_input();
 scr_collision();
-//speler staat stil
+// stil staan van speler
+
+sprite_index = spr_Dania_stand;
+
 //speler wil bewegen
 if(keyboard_check_pressed 
 (key_up || key_down || key_right || key_left))
@@ -8,3 +11,8 @@ if(keyboard_check_pressed
         state = states.beweging_Dania;
     }
     
+//speler valt aan
+if(attack_sword)
+    {
+        state = states.aanvallen_Dania;
+    }

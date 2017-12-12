@@ -2,19 +2,23 @@
 <assets>
   <Configs name="configs">
     <Config>Configs\Default</Config>
-    <Config>Configs\Test</Config>
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprites name="doors">
+      <sprites name="debug">
+        <sprite>sprites\spr_Door_debug</sprite>
+        <sprite>sprites\spr_door</sprite>
+        <sprite>sprites\DoorOpen</sprite>
+        <sprite>sprites\spr_tent_player</sprite>
+        <sprite>sprites\spr_tent</sprite>
+      </sprites>
       <sprites name="final">
-        <sprite>sprites\spr_engeldeur</sprite>
-        <sprite>sprites\spr_duiveldeur</sprite>
-        <sprite>sprites\spr_mensdeur</sprite>
-        <sprite>sprites\spr_engeldeur_open</sprite>
-        <sprite>sprites\spr_duiveldeur_open</sprite>
-        <sprite>sprites\spr_mensdeur_open</sprite>
+        <sprite>sprites\engeldeur</sprite>
+        <sprite>sprites\Devil_s_asshole</sprite>
+        <sprite>sprites\TWOPLUSTWOISFOURMINUSONEISTHREEQUICKMATHS</sprite>
+        <sprite>sprites\BAKSTEEN</sprite>
       </sprites>
     </sprites>
     <sprites name="enemy">
@@ -38,18 +42,21 @@
       <sprite>sprites\spr_border</sprite>
       <sprite>sprites\spr_potion_HP</sprite>
       <sprite>sprites\spr_potion_C</sprite>
-      <sprite>sprites\spr_baksteen</sprite>
     </sprites>
     <sprites name="player">
-      <sprites name="naamloze">
-        <sprite>sprites\spr_player_down_walk</sprite>
-        <sprite>sprites\spr_player_up_walk</sprite>
-        <sprite>sprites\spr_player_down</sprite>
-        <sprite>sprites\spr_player_up</sprite>
-        <sprite>sprites\spr_player_right</sprite>
-        <sprite>sprites\spr_player_left</sprite>
-        <sprite>sprites\spr_player_right_walk</sprite>
-        <sprite>sprites\spr_player_left_walk</sprite>
+      <sprites name="Dania">
+        <sprite>sprites\spr_Dania_stand</sprite>
+        <sprite>sprites\spr_player</sprite>
+        <sprite>sprites\spr_Dania_attack</sprite>
+        <sprite>sprites\spr_Dania_run</sprite>
+      </sprites>
+      <sprites name="Luci">
+        <sprite>sprites\spr_Luci_stand</sprite>
+        <sprite>sprites\spr_Luci_attack</sprite>
+        <sprite>sprites\spr_Luci_run</sprite>
+      </sprites>
+      <sprites name="debug_player">
+        <sprite>sprites\spr_player_debug</sprite>
       </sprites>
     </sprites>
     <sprites name="walls">
@@ -58,15 +65,6 @@
       <sprite>sprites\spr_wall</sprite>
       <sprite>sprites\spr_wall_inside</sprite>
       <sprite>sprites\spr_debugwall</sprite>
-    </sprites>
-    <sprites name="HUD">
-      <sprite>sprites\spr_HUD_devil</sprite>
-      <sprite>sprites\spr_spell_time</sprite>
-      <sprite>sprites\spr_spell_bunny</sprite>
-      <sprite>sprites\spr_spell_random</sprite>
-    </sprites>
-    <sprites name="NPC">
-      <sprite>sprites\spr_angel</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -79,9 +77,9 @@
       <scripts name="guard pfc">
         <script>scripts\scr_guard_vangen.gml</script>
         <script>scripts\scr_guard_slaap.gml</script>
-        <script>scripts\scr_guard_bewegen.gml</script>
-        <script>scripts\scr_guard_stilstand.gml</script>
       </scripts>
+      <script>scripts\scr_guard_bewegen.gml</script>
+      <script>scripts\scr_guard_stilstand.gml</script>
     </scripts>
     <scripts name="invertory">
       <script>scripts\scr_itempickup.gml</script>
@@ -112,7 +110,6 @@
     </scripts>
   </scripts>
   <objects name="objects">
-    <object>objects\Flapdrol_Karel_Obj</object>
     <object>objects\obj_enemy</object>
     <object>objects\obj_player</object>
     <object>objects\obj_XP</object>
@@ -124,16 +121,16 @@
       <object>objects\obj_debugwall</object>
     </objects>
     <objects name="doors">
-      <objects name="open">
-        <object>objects\obj_duiveldeur</object>
-        <object>objects\obj_mensdeur</object>
-        <object>objects\obj_engeldeur</object>
-      </objects>
-      <objects name="dicht">
-        <object>objects\obj_duiveldeur_open</object>
-        <object>objects\obj_mensdeur_open</object>
-        <object>objects\obj_engeldeur_open</object>
-      </objects>
+      <object>objects\obj_tent_player</object>
+      <object>objects\obj_tent</object>
+      <object>objects\obj_door</object>
+      <object>objects\obj_door_debug</object>
+      <object>objects\JeOmaDeur</object>
+      <object>objects\DIETER_DAS_KUT_BOI</object>
+      <object>objects\Debug_Door_Open_</object>
+      <object>objects\NOIR_BEST_NEP</object>
+      <object>objects\Chocola_sux</object>
+      <object>objects\Karel</object>
     </objects>
     <objects name="buttons">
       <object>objects\obj_button_parrent</object>
