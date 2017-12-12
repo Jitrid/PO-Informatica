@@ -16,64 +16,80 @@ if (place_meeting(x,y+movespeed_WS,obj_debugwall))
             }
         movespeed_WS = 0;
     }
-
-// collision met een mensen deur
-if (place_meeting(x+movespeed_AD,y,obj_mensdeur))
+// collision met een debugdeur
+if (place_meeting(x+movespeed_AD,y,obj_door_debug))
     {
-        while((!place_meeting(x+sign(movespeed_AD),y,obj_mensdeur)))
+        while((!place_meeting(x+sign(movespeed_AD),y,obj_door_debug)))
             {
                 x+=sign(movespeed_AD) 
             }
         movespeed_AD = 0;
         
     }
-if (place_meeting(x,y+movespeed_WS,obj_mensdeur))
+if (place_meeting(x,y+movespeed_WS,obj_door_debug))
     {
-        while((!place_meeting(x,y+sign(movespeed_WS),obj_mensdeur)))
+        while((!place_meeting(x,y+sign(movespeed_WS),obj_door_debug)))
             {
                 y+=sign(movespeed_WS)
             }
         movespeed_WS = 0;
-        }
-
-// collision met een duivel deur
-if (place_meeting(x+movespeed_AD,y,obj_duiveldeur))
+    }
+// collision met een muur
+if (place_meeting(x+movespeed_AD,y,obj_wall))
     {
-        while((!place_meeting(x+sign(movespeed_AD),y,obj_duiveldeur)))
+        while((!place_meeting(x+sign(movespeed_AD),y,obj_wall)))
             {
                 x+=sign(movespeed_AD) 
             }
         movespeed_AD = 0;
         
     }
-if (place_meeting(x,y+movespeed_WS,obj_duiveldeur))
+if (place_meeting(x,y+movespeed_WS,obj_wall))
     {
-        while((!place_meeting(x,y+sign(movespeed_WS),obj_duiveldeur)))
+        while((!place_meeting(x,y+sign(movespeed_WS),obj_wall)))
             {
                 y+=sign(movespeed_WS)
             }
         movespeed_WS = 0;
     }
 
-// collision met een engel deur
-if (place_meeting(x+movespeed_AD,y,obj_engeldeur))
+//collision muur 2
+if (place_meeting(x+movespeed_AD,y,obj_wall_2))
     {
-        while((!place_meeting(x+sign(movespeed_AD),y,obj_engeldeur)))
+        while((!place_meeting(x+sign(movespeed_AD),y,obj_wall_2)))
             {
                 x+=sign(movespeed_AD) 
             }
         movespeed_AD = 0;
         
     }
-if (place_meeting(x,y+movespeed_WS,obj_engeldeur))
+if (place_meeting(x,y+movespeed_WS,obj_wall_2))
     {
-        while((!place_meeting(x,y+sign(movespeed_WS),obj_engeldeur)))
+        while((!place_meeting(x,y+sign(movespeed_WS),obj_wall_2)))
             {
                 y+=sign(movespeed_WS)
             }
         movespeed_WS = 0;
     }
-    
+
+//collision muur 3
+if (place_meeting(x+movespeed_AD,y,obj_wall_3))
+    {
+        while((!place_meeting(x+sign(movespeed_AD),y,obj_wall_3)))
+            {
+                x+=sign(movespeed_AD) 
+            }
+        movespeed_AD = 0;
+        
+    }
+if (place_meeting(x,y+movespeed_WS,obj_wall_3))
+    {
+        while((!place_meeting(x,y+sign(movespeed_WS),obj_wall_3)))
+            {
+                y+=sign(movespeed_WS)
+            }
+        movespeed_WS = 0;
+    }
 // collision met guard
 if (place_meeting(x+movespeed_AD,y,obj_enemy))
     {
@@ -93,9 +109,6 @@ if (place_meeting(x,y+movespeed_WS,obj_enemy))
         movespeed_WS = 0;
     }
     
-<<<<<<< HEAD
-
-=======
 // collision met tent
 if (place_meeting(x+movespeed_AD,y,obj_tent))
     {
@@ -214,4 +227,3 @@ if (place_meeting(x,y+movespeed_WS,JeOmaDeur))
             }
         movespeed_WS = 0;
    }
->>>>>>> master
