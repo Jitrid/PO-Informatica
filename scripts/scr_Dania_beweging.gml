@@ -18,24 +18,33 @@ y += movespeed_WS
 
 //animatie
 //west
-if(move_AD = 1)
-    {
-        sprite_index = spr_Dania_run;
-        image_speed = .2;
-        image_xscale = 1;
-    }
-//oost
 if(move_AD = -1)
     {
-        sprite_index = spr_Dania_run;
-        image_speed = .2;
-        image_xscale = -1;
+        sprite_index = spr_player_left_walk;
+        image_speed = .35;
     }
-// noord en zuid
-if (move_WS = 1 || move_WS = -1)
+//oost
+else if(move_AD = 1)
     {
-        sprite_index = spr_Dania_run;
+        sprite_index = spr_player_right_walk;
+        image_speed = .35;
+    }
+// zuid
+else if (move_WS = 1)
+    {
+        sprite_index = spr_player_down_walk;
         image_speed = .2;
+    }
+// noord
+else if (move_WS = -1)
+    {
+        sprite_index = spr_player_up_walk;
+        image_speed = .2;
+    }
+else
+    {
+        image_speed = 0;
+        image_index = 0;
     }
 
 //speler valt aan

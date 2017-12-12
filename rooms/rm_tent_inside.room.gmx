@@ -55,7 +55,6 @@
     <instance objName="obj_wall_inside" x="154" y="16" name="inst_840C570F" locked="0" code="" scaleX="9.69999980926514" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall_inside" x="16" y="112" name="inst_D5E4C0BB" locked="0" code="" scaleX="1" scaleY="6" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall_inside" x="76" y="192" name="inst_3C595292" locked="0" code="" scaleX="4.69000005722046" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door" x="183" y="192" name="inst_B7D0C6F2" locked="0" code="target_r = rm_forest1;&#xA;target_x = 520;&#xA;target_y = 176;&#xA;" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall_inside" x="263" y="192" name="inst_3418CC38" locked="0" code="" scaleX="3.25806450843811" scaleY="1.02999997138977" colour="4294967295" rotation="0"/>
     <instance objName="obj_XP" x="89" y="167" name="inst_BC8C7A5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_XP" x="115" y="152" name="inst_4D209141" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
