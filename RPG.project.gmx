@@ -67,6 +67,7 @@
     </sprites>
     <sprites name="NPC">
       <sprite>sprites\spr_angel</sprite>
+      <sprite>sprites\spr_devil</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -147,6 +148,8 @@
     </objects>
     <object>objects\obj_potion_HP</object>
     <object>objects\obj_potion_C</object>
+    <object>objects\obj_devil</object>
+    <object>objects\obj_angel</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
