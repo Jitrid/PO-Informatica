@@ -30,6 +30,9 @@
         <sprite>sprites\spr_killer_stand</sprite>
         <sprite>sprites\spr_killer_run</sprite>
       </sprites>
+      <sprites name="rabit">
+        <sprite>sprites\spr_rabit</sprite>
+      </sprites>
     </sprites>
     <sprites name="other">
       <sprite>sprites\spr_XP</sprite>
