@@ -30,6 +30,10 @@ movespeed_AD = 0;
 movespeed_WS = 0;
 movespeed = 4;
 state = states.normaal_Dania;
+
+
+//GUI
+WindowWidth = window_get_width();
 </string>
           </argument>
         </arguments>
@@ -271,7 +275,7 @@ enum states
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_sprite_ext(spr_HUD_devil, image_index, 0 , 0, 2.5, 2.5, 0, c_white, 1);
+            <string>draw_sprite_ext(spr_HUD_devil, image_index, -25 , 550, 2.8, 2.5, 0, c_white, 1);
 
 </string>
           </argument>
