@@ -252,6 +252,14 @@ can_move = false;
 alarm[1] = 300;
  
  }
+ 
+ if(keyboard_check_pressed(ord("L"))){
+ instance_change(obj_bunny, true);
+ with (obj_bunny){
+ alarm[0] = 300;
+ }
+ 
+ }
 </string>
           </argument>
         </arguments>
