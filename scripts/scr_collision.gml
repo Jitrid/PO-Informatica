@@ -1,16 +1,35 @@
-// collision met een debugmuur
-if (place_meeting(x+movespeed_AD,y,obj_debugwall))
+// collision met een dungeon muur
+if (place_meeting(x+movespeed_AD,y,obj_wall_dungeon))
     {
-        while((!place_meeting(x+sign(movespeed_AD),y,obj_debugwall)))
+        while((!place_meeting(x+sign(movespeed_AD),y,obj_wall_dungeon)))
             {
                 x+=sign(movespeed_AD) 
             }
         movespeed_AD = 0;
         
     }
-if (place_meeting(x,y+movespeed_WS,obj_debugwall))
+if (place_meeting(x,y+movespeed_WS,obj_wall_dungeon))
     {
-        while((!place_meeting(x,y+sign(movespeed_WS),obj_debugwall)))
+        while((!place_meeting(x,y+sign(movespeed_WS),obj_wall_dungeon)))
+            {
+                y+=sign(movespeed_WS)
+            }
+        movespeed_WS = 0;
+    }
+    
+// collision met een dungeon top
+if (place_meeting(x+movespeed_AD,y,obj_wall_dungeon_up))
+    {
+        while((!place_meeting(x+sign(movespeed_AD),y,obj_wall_dungeon_up)))
+            {
+                x+=sign(movespeed_AD) 
+            }
+        movespeed_AD = 0;
+        
+    }
+if (place_meeting(x,y+movespeed_WS,obj_wall_dungeon_up))
+    {
+        while((!place_meeting(x,y+sign(movespeed_WS),obj_wall_dungeon_up)))
             {
                 y+=sign(movespeed_WS)
             }

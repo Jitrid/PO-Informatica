@@ -33,6 +33,9 @@
       <sprites name="rabit">
         <sprite>sprites\spr_rabit</sprite>
       </sprites>
+      <sprites name="king">
+        <sprite>sprites\spr_king</sprite>
+      </sprites>
     </sprites>
     <sprites name="other">
       <sprite>sprites\spr_XP</sprite>
@@ -56,11 +59,17 @@
       </sprites>
     </sprites>
     <sprites name="walls">
-      <sprite>sprites\spr_wall_3</sprite>
-      <sprite>sprites\spr_wall_2</sprite>
-      <sprite>sprites\spr_wall</sprite>
-      <sprite>sprites\spr_wall_inside</sprite>
-      <sprite>sprites\spr_debugwall</sprite>
+      <sprites name="debug/unneeded">
+        <sprite>sprites\spr_wall_inside</sprite>
+        <sprite>sprites\spr_wall_2</sprite>
+        <sprite>sprites\spr_wall_3</sprite>
+        <sprite>sprites\spr_wall</sprite>
+        <sprite>sprites\spr_debugwall</sprite>
+      </sprites>
+      <sprites name="needed">
+        <sprite>sprites\spr_wall_dungeon</sprite>
+        <sprite>sprites\spr_wall_dungeon_up</sprite>
+      </sprites>
     </sprites>
     <sprites name="HUD">
       <sprite>sprites\spr_HUD_devil</sprite>
@@ -72,10 +81,13 @@
       <sprite>sprites\spr_angel</sprite>
       <sprite>sprites\spr_devil</sprite>
     </sprites>
+    <sprite>sprites\sprite42</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
     <background>background\debug_BG</background>
+    <background>background\br_menu</background>
+    <background>background\br_dungeon</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -121,22 +133,28 @@
     <object>objects\obj_player</object>
     <object>objects\obj_XP</object>
     <objects name="walls">
-      <object>objects\obj_wall</object>
-      <object>objects\obj_wall_2</object>
-      <object>objects\obj_wall_3</object>
-      <object>objects\obj_wall_inside</object>
-      <object>objects\obj_debugwall</object>
+      <objects name="needed">
+        <object>objects\obj_wall_dungeon_up</object>
+        <object>objects\obj_wall_dungeon</object>
+      </objects>
+      <objects name="debug/unneeded">
+        <object>objects\obj_wall</object>
+        <object>objects\obj_wall_2</object>
+        <object>objects\obj_wall_3</object>
+        <object>objects\obj_debugwall</object>
+        <object>objects\obj_wall_inside</object>
+      </objects>
     </objects>
     <objects name="doors">
       <objects name="open">
-        <object>objects\obj_duiveldeur</object>
-        <object>objects\obj_mensdeur</object>
-        <object>objects\obj_engeldeur</object>
-      </objects>
-      <objects name="dicht">
-        <object>objects\obj_duiveldeur_open</object>
         <object>objects\obj_mensdeur_open</object>
         <object>objects\obj_engeldeur_open</object>
+        <object>objects\obj_duiveldeur_open</object>
+      </objects>
+      <objects name="dicht">
+        <object>objects\obj_engeldeur</object>
+        <object>objects\obj_duiveldeur</object>
+        <object>objects\obj_mensdeur</object>
       </objects>
     </objects>
     <objects name="buttons">
@@ -154,6 +172,8 @@
     <object>objects\obj_devil</object>
     <object>objects\obj_angel</object>
     <object>objects\obj_bunny</object>
+    <object>objects\obj_king</object>
+    <object>objects\obj_player_menu</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
