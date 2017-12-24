@@ -36,6 +36,9 @@
       <sprites name="king">
         <sprite>sprites\spr_king</sprite>
       </sprites>
+      <sprites name="kingsGuard">
+        <sprite>sprites\spr_kingsguard</sprite>
+      </sprites>
     </sprites>
     <sprites name="other">
       <sprite>sprites\spr_XP</sprite>
@@ -81,7 +84,6 @@
       <sprite>sprites\spr_angel</sprite>
       <sprite>sprites\spr_devil</sprite>
     </sprites>
-    <sprite>sprites\sprite42</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
