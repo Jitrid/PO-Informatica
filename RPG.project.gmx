@@ -37,6 +37,7 @@
         <sprite>sprites\spr_king</sprite>
       </sprites>
       <sprites name="kingsGuard">
+        <sprite>sprites\spr_kingsguard_infected</sprite>
         <sprite>sprites\spr_kingsguard</sprite>
       </sprites>
     </sprites>

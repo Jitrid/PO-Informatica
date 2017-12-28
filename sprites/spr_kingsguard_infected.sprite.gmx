@@ -21,9 +21,9 @@
   <width>65</width>
   <height>100</height>
   <frames>
-    <frame index="0">images\spr_kingsguard_0.png</frame>
-    <frame index="1">images\spr_kingsguard_1.png</frame>
-    <frame index="2">images\spr_kingsguard_2.png</frame>
-    <frame index="3">images\spr_kingsguard_3.png</frame>
+    <frame index="0">images\spr_kingsguard_infected_0.png</frame>
+    <frame index="1">images\spr_kingsguard_infected_1.png</frame>
+    <frame index="2">images\spr_kingsguard_infected_2.png</frame>
+    <frame index="3">images\spr_kingsguard_infected_3.png</frame>
   </frames>
 </sprite>
