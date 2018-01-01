@@ -1485,6 +1485,7 @@
     <instance objName="obj_wall_dungeon_up" x="64" y="224" name="inst_DB1AB3E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall_dungeon_up" x="96" y="224" name="inst_8E34910E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_king" x="1280" y="256" name="inst_661F068F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy" x="1120" y="416" name="inst_0CC6A8AD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

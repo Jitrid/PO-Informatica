@@ -6,8 +6,9 @@ movespeed_WS = move_WS * movespeed;
 moveX = movespeed* dir;
 moveY = movespeed* dir;
 if(can_move = true) {
+
 //in beweging zetten van guard
-if (distance <= sight_range && distance > catch_range 
+if (distance <= sight_range
 && !collision_line(x,y,obj_player.x,obj_player.y,obj_wall,false,true)
 && !collision_line(x,y,obj_player.x,obj_player.y,obj_wall_2,false,true)
 && !collision_line(x,y,obj_player.x,obj_player.y,obj_wall_3,false,true))
@@ -18,20 +19,15 @@ if (distance <= sight_range && distance > catch_range
             dir = point_direction(x, y, obj_player.x, obj_player.y)
             spd = 2
         }
-        x += lengthdir_x(spd, dir)
-        y += lengthdir_y(spd, dir)
+        x += lengthdir_x(spd, dir);
+        y += lengthdir_y(spd, dir);
 
     }
-}
-// speler vangen    
-else if (distance <= catch_range)
-    {
-        state = g_states.vangen
-    }
+} 
 //stilzetten van guard
-else
+if (distance > sight_range)
    {
-      state = g_states.stilstaan    
+        state = g_states.stilstaan;    
    }
    
 /*speler valt aan

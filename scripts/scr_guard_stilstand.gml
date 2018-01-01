@@ -1,7 +1,37 @@
 //guard stilstand
 distance = point_distance(x,y,obj_player.x,obj_player.y);
 dir = point_direction(obj_player.x,obj_player.y,x,y);
-sprite_index = spr_enemy_stand;
+
+/*if (instance_exists(obj_player)&& state = g_states.stilstaan && can_move != false )
+    {
+      // guard staat naar rechts
+      if (sprite_index = spr_kingsguard_infected_right_walk)
+        {
+            sprite_index = spr_kingsguard_infected_right;
+        }
+      // guard staat naar links
+      if (sprite_index = spr_kingsguard_infected_left_walk)
+        {
+            sprite_index = spr_kingsguard_infected_left;
+        }
+      // guard staat naar up
+      if (sprite_index = spr_kingsguard_infected_up_walk)
+        {
+            sprite_index = spr_kingsguard_infected_up;
+        }
+      // guard staat naar beneden
+      if (sprite_index = spr_kingsguard_infected_down_walk)
+        {
+            sprite_index = spr_kingsguard_infected_down;
+        }
+      else
+        {
+            sprite_index = spr_kingsguard_infected_down;
+        }
+      }
+*/
+
+//guard gaat bewegen
 if (distance <= sight_range
 && !collision_line(x,y,obj_player.x,obj_player.y,obj_wall,false,true)
 && !collision_line(x,y,obj_player.x,obj_player.y,obj_wall_2,false,true)
