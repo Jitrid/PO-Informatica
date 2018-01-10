@@ -27,15 +27,17 @@
             <kind>1</kind>
             <string>///vars
 state = g_states.stilstaan;
-sight_range = 150;
+sight_range = 300;
 catch_range = 20;
 move_AD = -1;
 move_WS = 1;
 hp = 10;
 
 can_move = true;
+
+
 //Movespeed
-movespeed_normal = 3;
+movespeed_normal = 10;
 movespeed_slowspell = 0;
 movespeed = movespeed_normal
 

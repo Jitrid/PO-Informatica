@@ -1,10 +1,10 @@
 //guard beweging naar speler
 distance = distance_to_point(obj_player.x,obj_player.y);
 dir = point_direction(obj_player.x,obj_player.y,x,y);
-movespeed_AD = move_AD * movespeed;
-movespeed_WS = move_WS * movespeed;
-moveX = movespeed* dir;
-moveY = movespeed* dir;
+movespeed_AD = move_AD * movespeed_normal;
+movespeed_WS = move_WS * movespeed_normal;
+moveX = movespeed_normal * dir;
+moveY = movespeed_normal * dir;
 if(can_move = true) {
 
 //in beweging zetten van guard
@@ -17,7 +17,7 @@ if (distance <= sight_range
         if instance_exists(obj_player)
         {
             dir = point_direction(x, y, obj_player.x, obj_player.y)
-            spd = 2
+            spd = 5
         }
         x += lengthdir_x(spd, dir);
         y += lengthdir_y(spd, dir);
