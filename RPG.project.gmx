@@ -90,7 +90,6 @@
     </sprites>
     <sprites name="walls">
       <sprites name="debug/unneeded">
-        <sprite>sprites\spr_wall_inside</sprite>
         <sprite>sprites\spr_wall_2</sprite>
         <sprite>sprites\spr_wall_3</sprite>
         <sprite>sprites\spr_wall</sprite>
@@ -98,7 +97,9 @@
       </sprites>
       <sprites name="needed">
         <sprite>sprites\spr_wall_dungeon</sprite>
+        <sprite>sprites\spr_wall_leaves</sprite>
         <sprite>sprites\spr_wall_dungeon_up</sprite>
+        <sprite>sprites\spr_wall_inside</sprite>
       </sprites>
     </sprites>
     <sprites name="HUD">
@@ -110,6 +111,7 @@
     <sprites name="NPC">
       <sprite>sprites\spr_angel</sprite>
       <sprite>sprites\spr_devil</sprite>
+      <sprite>sprites\Spr_prins</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -169,13 +171,14 @@
       <objects name="needed">
         <object>objects\obj_wall_dungeon_up</object>
         <object>objects\obj_wall_dungeon</object>
+        <object>objects\obj_wall_inside</object>
+        <object>objects\obj_wall_leaves</object>
       </objects>
       <objects name="debug/unneeded">
         <object>objects\obj_wall</object>
         <object>objects\obj_wall_2</object>
         <object>objects\obj_wall_3</object>
         <object>objects\obj_debugwall</object>
-        <object>objects\obj_wall_inside</object>
       </objects>
     </objects>
     <objects name="doors">
@@ -205,6 +208,7 @@
     <object>objects\obj_devil</object>
     <object>objects\obj_angel</object>
     <object>objects\obj_player_menu</object>
+    <object>objects\obj_prins</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>

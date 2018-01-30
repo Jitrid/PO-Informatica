@@ -278,12 +278,12 @@ enum states
             <string>
 
 if(window_get_fullscreen() = true){
-draw_sprite_ext(spr_HUD_devil, image_index, -18 , 850, 3.85, 3, 0, c_white, 1);
+draw_sprite_ext(spr_HUD_devil, image_index == 0, -18 , 850, 3.85, 3, 0, c_white, 1);
 }
 
 
 else {
-draw_sprite_ext(spr_HUD_devil, image_index, -25 , 550, 2.8, 2.5, 0, c_white, 1);
+draw_sprite_ext(spr_HUD_devil, image_index == 0, -25 , 550, 2.8, 2.5, 0, c_white, 1);
 }
 </string>
           </argument>
