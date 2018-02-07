@@ -6,16 +6,17 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\sound0</sound>
-    <sound>sound\sound1</sound>
-    <sound>sound\sound2</sound>
-    <sound>sound\sound3</sound>
-    <sound>sound\sound4</sound>
-    <sound>sound\sound5</sound>
-    <sound>sound\sound6</sound>
-    <sound>sound\sound7</sound>
-    <sound>sound\sound8</sound>
-    <sound>sound\sound9</sound>
+    <sound>sound\End_Credits</sound>
+    <sound>sound\Death_Scene</sound>
+    <sound>sound\Suspense</sound>
+    <sound>sound\Una_Corda</sound>
+    <sound>sound\Phaser</sound>
+    <sound>sound\Eerie_AF</sound>
+    <sound>sound\Eerie_AF_2</sound>
+    <sound>sound\Till_Death_Do_Us_Part</sound>
+    <sound>sound\Alien_Room</sound>
+    <sound>sound\Save_Zone</sound>
+    <sound>sound\End_Credits_Piano</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="doors">
