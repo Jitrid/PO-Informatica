@@ -108,10 +108,20 @@
         <sprite>sprites\spr_debugwall</sprite>
       </sprites>
       <sprites name="needed">
-        <sprite>sprites\spr_wall_dungeon</sprite>
-        <sprite>sprites\spr_wall_leaves</sprite>
-        <sprite>sprites\spr_wall_dungeon_up</sprite>
         <sprite>sprites\spr_wall_inside</sprite>
+        <sprites name="dungeon">
+          <sprite>sprites\spr_wall_dungeon_up</sprite>
+          <sprite>sprites\spr_wall_dungeon_leaves</sprite>
+          <sprite>sprites\spr_wall_dungeon</sprite>
+        </sprites>
+        <sprites name="steel">
+          <sprite>sprites\spr_wall_steel</sprite>
+          <sprite>sprites\spr_wall_steel_up</sprite>
+          <sprite>sprites\sp_wall_steel_leaves</sprite>
+          <sprite>sprites\spr_wall_half_steelR</sprite>
+          <sprite>sprites\spr_wall_half_steelL</sprite>
+          <sprite>sprites\spr_wall_half_steelM</sprite>
+        </sprites>
       </sprites>
     </sprites>
     <sprites name="HUD">
@@ -119,6 +129,9 @@
       <sprite>sprites\spr_spell_time</sprite>
       <sprite>sprites\spr_spell_bunny</sprite>
       <sprite>sprites\spr_spell_random</sprite>
+      <sprite>sprites\spr_heart</sprite>
+      <sprite>sprites\spr_shield</sprite>
+      <sprite>sprites\spr_HUD_angle</sprite>
     </sprites>
     <sprites name="NPC">
       <sprite>sprites\spr_angel</sprite>
@@ -169,7 +182,11 @@
     <scripts name="doors">
       <script>scripts\OpenSesame.gml</script>
     </scripts>
+    <script>scripts\scr_text.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt</font>
+  </fonts>
   <objects name="objects">
     <objects name="enemy">
       <object>objects\obj_king</object>
@@ -221,6 +238,7 @@
     <object>objects\obj_angel</object>
     <object>objects\obj_player_menu</object>
     <object>objects\obj_prins</object>
+    <object>objects\obj_text</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
