@@ -79,7 +79,6 @@
     </sprites>
     <sprites name="other">
       <sprite>sprites\spr_XP</sprite>
-      <sprite>sprites\spr_button</sprite>
       <sprite>sprites\spr_item</sprite>
       <sprite>sprites\spr_border</sprite>
       <sprite>sprites\spr_potion_HP</sprite>
@@ -137,6 +136,10 @@
       <sprite>sprites\spr_angel</sprite>
       <sprite>sprites\spr_devil</sprite>
       <sprite>sprites\Spr_prins</sprite>
+    </sprites>
+    <sprites name="Strartscreen">
+      <sprite>sprites\spr_start_door</sprite>
+      <sprite>sprites\spr_button</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -222,11 +225,6 @@
         <object>objects\obj_mensdeur</object>
       </objects>
     </objects>
-    <objects name="buttons">
-      <object>objects\obj_button_parrent</object>
-      <object>objects\obj_exit_button</object>
-      <object>objects\obj_start_button</object>
-    </objects>
     <objects name="globals">
       <object>objects\obj_invertory</object>
       <object>objects\obj_stats</object>
@@ -239,6 +237,14 @@
     <object>objects\obj_player_menu</object>
     <object>objects\obj_prins</object>
     <object>objects\obj_text</object>
+    <objects name="Startscreen">
+      <objects name="buttons">
+        <object>objects\obj_button_parrent</object>
+        <object>objects\obj_exit_button</object>
+        <object>objects\obj_start_button</object>
+      </objects>
+      <object>objects\Start_screen</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
